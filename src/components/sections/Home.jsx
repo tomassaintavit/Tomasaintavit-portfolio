@@ -11,23 +11,24 @@ export const Home = () => {
             <div className="text-center z-10 px-4">
                 <h1 
                     className="text-5xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-500 
-                    to-yellow-300 bg-clip-text text-transparent leading-right"
+                    to-green-500 bg-clip-text text-transparent leading-right"
                 > 
-                Hola, soy Tomás Saint-Avit
+                Tomás Saint-Avit
                 </h1>
                 <p className="text-gray-400 text-lg mb-8 max-w-lg mx-uto">
-                    Ingenierio en sistemas de información.
-                    Me considero una persona proactiva y dispuesto a adquirir nuevos 
-                    conocimientos para seguir creciendo como profesional.
+                    Soy Ingeniero en Sistemas de Información con 2 años de experiencia como desarrollador de aplicaciones web. <br></br>
+                    Poseo conocimientos en programación, testing y análisis de sistemas.<br></br>
+                    Cuento con inglés fluido.
                 </p>
 
+
                 <div className="flex justify-center space-x-4">
-                    <a
+                    {/* <a
                         href="#projects"
                         className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
                     >
                         Proyectos
-                    </a>
+                    </a> */}
 
                     <a
                         href="#contact"

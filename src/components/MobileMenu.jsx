@@ -1,9 +1,8 @@
-import { useEffect } from "react"
 
 export const MobileMenu = ({menuOpen, setMenuOpen}) => {
 
     return (
-        <div className={`   fixed top-0 left-0 w-full bg-[ rgba(10,10,10,0.8)] z-40 flex flex-col items-center justify-center
+        <div className={`   fixed top-0 left-0 w-full bg-[rgba(10,10,10,0.8)] z-40 flex flex-col items-center justify-center
                              transition-all duration-300 ease-in-out
 
                             ${
@@ -44,9 +43,9 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
                             }
                 `}
                 >
-                About
+                Acerca
             </a>
-            <a  href="#project" 
+            {/* <a  href="#project" 
                 onClick={() => setMenuOpen(false)} 
                 className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                             
@@ -57,8 +56,8 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
                             }
                 `}
                 >
-                Project
-            </a>
+                Proyectos
+            </a> */}
             <a  href="#contact" 
                 onClick={() => setMenuOpen(false)} 
                 className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
@@ -70,7 +69,7 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
                             }
                 `}
                 >
-                Contact
+                Contacto
             </a>
             
 
