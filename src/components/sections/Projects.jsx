@@ -17,15 +17,15 @@ export const Projects = () => {
 
                     
                     <h3 className="text-xl font-bold mb-2">
-                        Eventscout
+                        Uniquemals
                     </h3>
                     <p className="text-gray-400 mb-4">
-                        Software que se encarga de encontrar eventos de diversas platformas y las une en un solo lugar.
+                        Sistema que muestra animales endémicos por país.
                     </p>
                     <div className="flex flex-wrap gap-2 mb-4"
                         
                     >
-                        {["Angular", "Node.js", "MongoDB"].map((tech,key) => (
+                        {["React", "Node.js", "SQL", "Supabase"].map((tech,key) => (
                             <span
                             key={key}
                             className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -36,17 +36,17 @@ export const Projects = () => {
                           </span>
                         ))}
                     </div>
-                    {/*
+                    
                     
                     <div className="flex justify-between items-center">
                         <a
-                            href="#"
+                            href="https://uniquemals.vercel.app/" target="_blank"
                             className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                         >
                             View Project →
                          </a>
                     </div>
-                    */}
+                   
                   </div>           
                 </div>
             </div>
