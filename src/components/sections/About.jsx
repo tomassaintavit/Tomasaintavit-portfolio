@@ -104,7 +104,7 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4">Experience</h3>
                             <div className="space-y-4 text-gray-300">
                                 <div>
-                                    <h3 className="font-semibold">
+                                    <h3 className="font-semibold text-emerald-400">
                                         Fullstack Developer at Prosecretaria de Informatica de la Universidad Nacional de Córdoba (2021-2023)
                                     </h3>
                                     <ul className="list-disc list-inside text-gray-300 space-y-2">
@@ -126,7 +126,7 @@ export const About = () => {
 
                                 </div>
                                 <div>
-                                    <h3 className="font-semibold">
+                                    <h3 className="font-semibold text-emerald-400">
                                         Machine Learning Engineer at Anyone AI (2025-2026)
                                     </h3>
                                     <ul className="list-disc list-inside text-gray-300 space-y-2">
