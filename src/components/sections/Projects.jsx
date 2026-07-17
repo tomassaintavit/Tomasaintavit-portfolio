@@ -155,15 +155,15 @@ export const Projects = () => {
 
 
                             <h3 className="text-xl font-bold mb-2">
-                                Uniquemals
+                                RAG Assistant
                             </h3>
                             <p className="text-gray-400 mb-4">
-                                System that shows endemic animals by country.
+                                System that finds the most relevant parts of the documents and sends them to an LLM to answer based on the actual content.
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4"
 
                             >
-                                {["React", "Node.js", "SQL", "Supabase"].map((tech, key) => (
+                                {["ChromaDB", "LLM", "Embeddings", "LangChain", "Sentence Transformers", "React", "Vite"].map((tech, key) => (
                                     <span
                                         key={key}
                                         className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
